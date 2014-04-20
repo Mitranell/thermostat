@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
         <!-- jQuery mobile -->
         <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.css" />
@@ -10,7 +10,9 @@
         <!-- Optional theme -->
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
         
-        <link rel="stylesheet" href="css/main.css">
+        <!-- Main css and js files -->
+        <link rel="stylesheet" href="include/main.css">
+        <script type="text/javascript" src="include/main.js"></script>
         
         <!-- Latest compiled and minified JavaScript -->
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -18,6 +20,8 @@
     </head>
     
     <body>
-        <button type="button" class="btn btn-default btn-lg btn-block" id="blockLevelButton">Block level button</button>
+        <div data-role="page" id="one">
+            <a href="page2.html" type="button" class="btn btn-default btn-lg btn-block" id="blockLevelButton">Goto page 2!</a>
+        </div>
     </body>
 </html>
